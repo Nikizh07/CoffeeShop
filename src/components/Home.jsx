@@ -14,8 +14,8 @@ const Home = () => {
         <p className="my-[20px] text-gray-600 p-2">Italiano Café is your gateway to the heart of Italy, right here in Paris. Experience the authentic flavors of Italy, from rich espressos to delectable pastries. Our cozy ambiance, combined with our passionate baristas, creates the perfect setting for a leisurely coffee break or a quick bite.</p>
         <br />
         <div className="flex gap-2">
-          <button className="bg-red-400 p-2 rounded-xl text-white"><Link to="/products">Products</Link></button>
-          <button className="bg-red-400 p-2 rounded-xl text-white w-[70px]"><Link to="/cart">Cart</Link></button>
+          <button className="bg-red-400 p-2 rounded-xl text-white"><Link to="/CoffeeShop/products">Products</Link></button>
+          <button className="bg-red-400 p-2 rounded-xl text-white w-[70px]"><Link to="/CoffeeShop/cart">Cart</Link></button>
         </div>
         </div>
       </div>

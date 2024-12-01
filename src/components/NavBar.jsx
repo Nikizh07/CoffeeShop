@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="container">
 
       <div className="hamburger">
-      <Link to="/hmenu"><i class="fa fa-bars sm:hidden float-right mr-[10px] mt-[10px] text-[20px] cursor-pointer"></i></Link>
+      <Link to="/CoffeeShop/hmenu"><i class="fa fa-bars sm:hidden float-right mr-[10px] mt-[10px] text-[20px] cursor-pointer"></i></Link>
        
       </div>
       <br  className="sm:hidden md:hidden lg:hidden"/>
