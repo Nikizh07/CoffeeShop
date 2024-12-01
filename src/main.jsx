@@ -10,19 +10,19 @@ import HamMenu from './components/HamMenu.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/CoffeeShop",
     element: <><NavBar/><Home/></>
   },
   {
-    path: "/products",
+    path: "/CoffeeShop/products",
     element: <><NavBar/><Products/></>
   },
   {
-    path: "/cart",
+    path: "/CoffeeShop/cart",
     element:<><NavBar/><Cart/></>
   },
   {
-    path: "/hmenu",
+    path: "/CoffeeShop/hmenu",
     element: <HamMenu/>
   }
 ])

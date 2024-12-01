@@ -17,19 +17,19 @@ const NavBar = () => {
         <h1 className="flex-1 ml-[20px]">Cafe</h1>
         <div className="gap-4 flex mr-[50px]">
           <Link
-            to="/"
+            to="/CoffeeShop"
             className="hover:bg-gray-400 rounded-[5px] h-[30px] w-[60px] flex justify-center items-center"
           >
             Home
           </Link>
           <Link
-            to="/products"
+            to="/CoffeeShop/products"
             className="hover:bg-gray-400 rounded-[5px] h-[30px] w-[60px] flex justify-center items-center"
           >
             Products
           </Link>
           <Link
-            to="/cart"
+            to="/CoffeeShop/cart"
             className="hover:bg-gray-400 rounded-[5px] h-[30px] w-[60px] flex justify-center items-center"
           >
             Cart
